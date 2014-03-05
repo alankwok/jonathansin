@@ -40,23 +40,13 @@
 	</div>
 	<div data-role="content" id="content" class="content"><script>
 $(document).on('ready', function() {
-	$.mobile.autoInitializePage = false;
-	$.mobile.allowCrossDomainPages = true;
-	$.support.cors = true;
+//	$.mobile.autoInitializePage = false;
+//	$.mobile.allowCrossDomainPages = true;
+//	$.support.cors = true;
 	$('#content').html('Loading .. 123');
-	$.get("http://alankwok.hopto.org/r/site/ksmeow.blogspot.hk/credit.htm", function(data) {
-		alert("Data Loaded: " + data);
+	$.get("http://www.coldfusionjedi.com/demos/may62011/ray.cfc?method=hellofromray&returnFormat=plain", {}, function(data) {
+		$("#content").html(data);
 	});
-//
-//	$('#content').html('Loading ..');
-//	$('#h1').text('News');
-//	$('#content').load('http://alankwok.hopto.org/r/site/www.jonathansin.com/feed.htm #content');
-//	$("#content").load('http://alankwok.hopto.org/r/site/ksmeow.blogspot.hk/credit.htm #content');
-//	$("#content").load('credit.htm #content');
-//	$.mobile.initializePage();
-//	$.get('http://alankwok.hopto.org/r/site/ksmeow.blogspot.hk/credit.htm', function(data) {
-//		alert('TEST');
-//	});
 //	$.mobile.changePage('#page');
 });
 </script>

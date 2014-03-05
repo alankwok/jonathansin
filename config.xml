@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
 		xmlns:gap   = "http://phonegap.com/ns/1.0"
 		id          = "com.phonegap.example"
 		versionCode = "10" 
 		version     = "1.0.0" >	
-	<name>香港美食旅遊</name>
-	<description>香港博客香港人最清楚香港哪裡有懷舊餐廳、地道小菜、街頭小吃美味又便宜? ...魚蛋、蛋撻、雞蛋仔、菠蘿油、牛腩粉哪裡更好吃?  要到香港旅遊時會有幫助的各式資料，向你介紹香港正在舉行的特價購物會資訊及最新最好玩的東西。  有關活動邀約、採訪、合作， 請聯絡 黃小姐 cal.wongkc@gmail.com  《Jonathan個人專頁》 http://facebook.com/jonathansin </description>
+	<name>Jonathan Sin</name>
+	<description>【敗家手記】介紹個人喜好潮物、科技、家用產品、選購建議和應用技巧 http://jonathansin.com  http://facebook.com/jonathansin  【香港美食旅遊】專題介紹香港美食、旅遊、玩樂好去處 http://hkfoodtravel.com http://facebook.com/hkfoodtravel  合作聯絡 Cal Wong 黃小姐 cal.wongkc@gmail.com</description>
 	<author href="http://alankwok.hopto.org" email="alankwok@yahoo.com">Alan Kwok</author>	
 	<icon src="icons/apple-touch-icon-57-precomposed.png" gap:platform="ios" width="57" height="57" />
 	<icon src="icons/apple-touch-icon-72-precomposed.png" gap:platform="ios" width="72" height="72" />
@@ -24,10 +24,10 @@
 	<gap:splash src="splash/ios-splash-768x1004.png" gap:platform="ios" width="768" height="1004" />	
 	<gap:splash src="splash/ios-splash-2048x4796.png" gap:platform="ios" width="2048" height="1496" />
 	<gap:splash src="splash/ios-splash-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
-	<gap:splash src="splash/android-splash-ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<gap:splash src="splash/android-splash-mdpi.png" gap:platform="android" gap:density="mdpi" />
-	<gap:splash src="splash/android-splash-hdpi.png" gap:platform="android" gap:density="hdpi" />
-	<gap:splash src="splash/android-splash-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="icons/android-ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="icons/android-mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="icons/android-hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="icons/android-xdpi.png" gap:platform="android" gap:density="xhdpi" />
 	<gap:splash src="splash/winphone-splash.png" gap:platform="winphone" />	
 </widget>
 	
